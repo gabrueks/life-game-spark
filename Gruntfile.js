@@ -2,7 +2,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     jshint: {
-      all: ['Gruntfile.js', 'app/*.js', 'test/*.js']
+      all: ['Gruntfile.js', 'game/*.js', 'testing/*.js']
     },
     simplemocha: {
       options: {
@@ -11,7 +11,7 @@ module.exports = function (grunt) {
         reporter: 'spec'
       },
 
-      all: { src: 'test/*-test.js' }
+      all: { src: 'testing/*-test.js' }
     },
     watch: {
       validate_and_test: {

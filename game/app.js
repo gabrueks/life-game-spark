@@ -1,5 +1,5 @@
 //application
-var boardFunctions = require('./board-functions'),
+var boardFunctions = require('./projectboard'),
     board = JSON.parse(process.argv[2] || '[]');
 
 console.log('%s', boardFunctions.validateBoard(board) ?

@@ -1,6 +1,6 @@
 // Grunt tests for game of life functions
 var should = require('should');
-var boardFunctions = require('../app/board-functions');
+var boardFunctions = require('../game/projectboard');
 
 describe('board functions', function () {
   describe('validate', function () {
