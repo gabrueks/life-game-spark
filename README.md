@@ -1,3 +1,5 @@
+# Spark test
+
 ## Requirements
 
 `npm install -g grunt-cli` and `npm install grunt --save-dev` and `npm install`
@@ -14,4 +16,3 @@ Run the script with `node game/app.js [board]` or just `npm start`. If you run n
 ```
 node game/app.js [[0,1,0,0,0],[1,0,0,1,1],[1,1,0,0,1],[0,1,0,0,0],[1,0,0,0,1]]
 ```
-# life-game-spark
